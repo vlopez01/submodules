@@ -1,0 +1,12 @@
+pipeline {
+	agent any
+	stages {
+    	stage('Build') {
+        	steps {
+              echo "He lanzado el jenkinsfile"
+            	sh 'ls -la'
+        	}
+    	}
+    	
+	}
+}
